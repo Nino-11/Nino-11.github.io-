@@ -14,3 +14,39 @@ Data scientist doing data science things.
 
 ## Contact
 - GitHub: [@Nino-11](https://github.com/Nino-11)
+
+- <!DOCTYPE html>
+<html>
+<head>
+    <title>Data Science Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { color: #2c3e50; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .section { margin: 30px 0; }
+    </style>
+</head>
+<body>
+    <h1>Data Science Portfolio</h1>
+    <p>Welcome to my portfolio!</p>
+    
+    <div class="section">
+        <h2><a href="./papers">📚 Research Papers</a></h2>
+        <p>Collection of my published papers.</p>
+    </div>
+    
+    <div class="section">
+        <h2><a href="./projects">💻 Python Projects</a></h2>
+        <p>My data science and machine learning projects.</p>
+    </div>
+</body>
+</html>
+
