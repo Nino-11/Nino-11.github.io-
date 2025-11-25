@@ -15,7 +15,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #2c3e50;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #e8eaed;
             min-height: 100vh;
             padding: 20px;
         }
@@ -25,12 +25,12 @@
             margin: 0 auto;
             background: white;
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
             overflow: hidden;
         }
         
         .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #434343 0%, #000000 100%);
             color: white;
             padding: 60px 40px;
             text-align: center;
@@ -40,14 +40,15 @@
             font-size: 3em;
             margin-bottom: 10px;
             font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            letter-spacing: -1px;
         }
         
         .hero p {
             font-size: 1.2em;
-            opacity: 0.95;
+            opacity: 0.9;
             max-width: 700px;
             margin: 0 auto;
+            font-weight: 300;
         }
         
         .content {
@@ -62,11 +63,11 @@
         }
         
         .card {
-            background: #f8f9fa;
-            border-radius: 15px;
-            padding: 30px;
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 35px;
             transition: all 0.3s ease;
-            border: 2px solid transparent;
+            border: 1px solid #e0e0e0;
             position: relative;
             overflow: hidden;
         }
@@ -77,69 +78,74 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 5px;
-            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            height: 4px;
+            background: linear-gradient(90deg, #505050 0%, #2c2c2c 100%);
         }
         
         .card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
-            border-color: #667eea;
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+            border-color: #c0c0c0;
+            background: white;
         }
         
         .card-icon {
             font-size: 3em;
             margin-bottom: 15px;
             display: block;
+            filter: grayscale(30%);
         }
         
         .card h2 {
-            color: #2c3e50;
+            color: #1a1a1a;
             margin-bottom: 15px;
             font-size: 1.8em;
+            font-weight: 600;
         }
         
         .card h2 a {
-            color: #2c3e50;
+            color: #1a1a1a;
             text-decoration: none;
             transition: color 0.3s ease;
         }
         
         .card h2 a:hover {
-            color: #667eea;
+            color: #505050;
         }
         
         .card p {
-            color: #555;
+            color: #666;
             font-size: 1.05em;
-            line-height: 1.6;
+            line-height: 1.7;
         }
         
         .info-section {
-            background: #f8f9fa;
-            border-radius: 15px;
-            padding: 30px;
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 35px;
             margin-bottom: 30px;
+            border: 1px solid #e0e0e0;
         }
         
         .info-section h2 {
-            color: #2c3e50;
+            color: #1a1a1a;
             margin-bottom: 15px;
             font-size: 1.8em;
-            border-left: 5px solid #667eea;
+            border-left: 4px solid #505050;
             padding-left: 15px;
+            font-weight: 600;
         }
         
         .info-section p {
-            color: #555;
+            color: #666;
             font-size: 1.05em;
             line-height: 1.8;
         }
         
         .contact-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #434343 0%, #000000 100%);
             color: white;
-            border-radius: 15px;
+            border-radius: 12px;
             padding: 40px;
             text-align: center;
         }
@@ -148,6 +154,7 @@
             color: white;
             margin-bottom: 25px;
             font-size: 2em;
+            font-weight: 600;
         }
         
         .contact-links {
@@ -165,24 +172,25 @@
         .contact-links a {
             color: white;
             text-decoration: none;
-            padding: 12px 25px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 30px;
+            padding: 12px 30px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 6px;
             transition: all 0.3s ease;
             display: inline-block;
-            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-weight: 500;
         }
         
         .contact-links a:hover {
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.25);
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
         
         footer {
             text-align: center;
             padding: 30px;
-            color: #7f8c8d;
+            color: #999;
             font-size: 0.9em;
         }
         
@@ -248,7 +256,7 @@
         </div>
         
         <footer>
-            <p>&copy; 2024 Data Science Portfolio. Built with ❤️ and deployed on GitHub Pages.</p>
+            <p>&copy; 2024 Data Science Portfolio. Built and deployed on GitHub Pages.</p>
         </footer>
     </div>
 </body>
